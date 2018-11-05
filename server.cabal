@@ -1,11 +1,11 @@
-name: api
+name: server
 version: 0.1.0
-synopsis: A very simple HTTP API
+synopsis: A very simple HTTP server
 category: Web
 build-type: Simple
 cabal-version: >=1.10
 
-executable api
+executable server
     main-is: Main.hs
     hs-source-dirs: src
     other-modules:
